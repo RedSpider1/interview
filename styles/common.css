@@ -1,0 +1,147 @@
+.gitbook-link {
+    display: none !important;
+}
+.page-wrapper {
+    text-align: justify;
+}
+.markdown-section img {
+  border-radius: 10px;
+  box-shadow: rgb(102, 102, 102) 0px 0px 5px;
+}
+.markdown-section p{
+  font-size: 16px;
+}
+.markdown-section p>img{
+  margin: 0 auto;
+  display: block;
+}
+.markdown-section li{
+  font-size: 16px !important;
+}
+.markdown-section pre>code{
+  font-size: 12px !important;
+}
+.markdown-section hr {
+  height: 1px;
+  padding: 0;
+  margin: 1.7em 0;
+  overflow: hidden;
+  background-color: red;
+  border: none;
+}
+.markdown-section blockquote {
+  margin: 0;
+  margin-bottom: .85em;
+  padding: 0 15px;
+  color: #858585;
+  border-left: 4px solid #CC6600;
+}
+.markdown-section h1 {
+    font-size: 20px !important;
+    padding: 8px 15px;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right bottom, #EF9A9A, #C62828);
+    background-color: #F44336;
+    color: rgb(255, 255, 255);
+    border-left: 10px solid #AD1457;
+    border-radius: 5px;
+    text-shadow: rgb(122, 32, 32) 1px 1px 1px;
+    box-shadow: rgb(102, 102, 102) 1px 1px 2px;
+}
+.markdown-section h2,h3 {
+    color: #F44336;
+}
+.markdown-section>pre {
+    border-radius: 5px;
+    box-shadow: rgb(102, 102, 102) 1px 2px 1px;
+    background-color: lightgoldenrodyellow;
+    overflow: auto;
+}
+.markdown-section p code, .markdown-section ul code{
+    background-color:  white;
+    color: red;
+}
+/*
+
+Monokai Sublime style. Derived from Monokai by noformnocontent http://nn.mit-license.org/
+
+*/
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: #23241f !important;
+  }
+  
+  .hljs,
+  .hljs-tag,
+  .hljs-subst {
+    color: #31aa82 !important;
+  }
+  
+  .hljs-strong,
+  .hljs-emphasis {
+    color: #a8a8a2 !important;
+  }
+  
+  .hljs-bullet,
+  .hljs-quote,
+  .hljs-number,
+  .hljs-regexp,
+  .hljs-literal,
+  .hljs-link {
+    color: #ae81ff !important;
+  }
+  
+  .hljs-code,
+  .hljs-title,
+  .hljs-section,
+  .hljs-selector-class {
+    color: #af7121 !important;
+  }
+  
+  .hljs-strong {
+    font-weight: bold !important;
+  }
+  
+  .hljs-emphasis {
+    font-style: italic !important;
+  }
+  
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-name,
+  .hljs-attr {
+    color: #f92672 !important;
+  }
+  
+  .hljs-symbol,
+  .hljs-attribute {
+    color: #66d9ef !important;
+  }
+  
+  .hljs-params,
+  .hljs-class .hljs-title {
+    color: #34c474 !important;
+  }
+  
+  .hljs-string,
+  .hljs-type,
+  .hljs-built_in,
+  .hljs-builtin-name,
+  .hljs-selector-id,
+  .hljs-selector-attr,
+  .hljs-selector-pseudo,
+  .hljs-addition,
+  .hljs-variable,
+  .hljs-template-variable {
+    color: #000000 !important;
+  }
+  
+  .hljs-comment,
+  .hljs-deletion,
+  .hljs-meta {
+    color: #75715e !important;
+  }
+  
